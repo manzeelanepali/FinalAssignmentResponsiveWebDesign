@@ -1,438 +1,568 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container {
-    max-width: 100%;
-     /* padding-left: 108px;  */
-    padding-top: 40px;
-     /* padding-right: 108px;   */
+  max-width: 100%;
+  /* padding-left: 108px;  */
+  padding-top: 40px;
+  /* padding-right: 108px;   */
 }
 
-
 @font-face {
-    font-family: "SF Pro Display Font";
-    src: url("./fonts/sf-pro-text-regular.ttf");
+  font-family: "SF Pro Display Font";
+  src: url("./fonts/sf-pro-text-regular.ttf");
 }
 
 header {
-    color: #2A84C6
+  color: #2a84c6;
 }
 
 .get-started {
-    background-color: #1443BD;
-    color: white;
+  background-color: #1443bd;
+  color: white;
 }
 
 .background-image {
-    background-size: cover;
-    position: absolute;
-    z-index: 1;
-    width: 100%;
+  background-size: cover;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
 
-    bottom: 0px;
-
-
-
-
-
+  bottom: 0px;
 }
 
 .background-img-1 {
+  position: absolute;
+  z-index: 0;
 
-    position: absolute;
-    z-index: 0;
-
-
-    bottom: 0px;
-
-
-
+  bottom: 0px;
 }
 
 .first-nav-row img {
-    margin-left: 108px;
+  margin-left: 108px;
 }
 
 .padding {
-
-    padding: 0px 100px
+  padding: 0px 100px;
 }
 
-
 .first-nav-row {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .mid-navigations {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-    font-family: 'SVN-Gilroy', sans-serif;
-    color: #1443BD
-    ;
-
-
-
-
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  font-family: "SVN-Gilroy", sans-serif;
+  color: #1443bd;
 }
 
 .Side-nav {
-    padding-right: 108px;
+  padding-right: 108px;
 }
 
 .signup {
-    background-color: #1443BD;
-    color: white;
+  background-color: #1443bd;
+  color: white;
 }
 
-
-
 .mid-portion-1 {
-
-    padding-left: 108px;
-    width: 492px;
-
-
+  padding-left: 108px;
+  width: 492px;
 }
 
 .mid-portion-1 p {
-    font-family: "svn-Gilroy";
-    flex: 1;
-    margin-top: 12px;
-    margin-bottom: 44px;
+  font-family: "svn-Gilroy";
+  flex: 1;
+  margin-top: 12px;
+  margin-bottom: 44px;
 }
 
 .header-mid-portion {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* gap: 232px; */
-    position: relative;
-    min-height: 105vh;
-    overflow: hidden;
-
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 232px; */
+  position: relative;
+  /* min-height: 100vh; */
+  overflow: hidden;
+  /* padding-left: 108px; */
 }
 
 .pyramid1,
 .pyramid2,
 .pyramid3 {
-    position: absolute;
-    z-index: -1;
-
-
-
-
-
+  position: absolute;
+  z-index: -1;
 }
 
 .pyramid1 {
-    left: 113px
+  left: 113px;
 }
 
 .pyramid3 {
-    right: 66.69px;
+  right: 66.69px;
 }
 
+.header-mid-portion h2 {
+  width: 528px;
+  font-family: "SF Pro Display Font";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 72px;
+  /* or 120% */
 
-
-.header-mid-portion h1 {
-
-    font-weight: 600;
-    font-size: 3.75rem;
-    font-family: "SF Pro Display Font";
-    /* letter-spacing: -0.005em */
-
+  /* letter-spacing: -0.005em; */
 }
 
 .header-mid-portion p {
-    width: 492px;
-    color: #1443BD;
-
+  width: 492px;
+  color: #1443bd;
 }
 
 .signup {
-    color: white;
-    background-color: #1443BD;
-    width: 99px;
-    border-radius: 4px;
-    padding: 8px 24px;
-    border: none;
+  color: white;
+  background-color: #1443bd;
+  width: 99px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  border: none;
 }
 
 .sign-in {
-    border: none;
-    background-color: #ffff;
-    padding: 8px 24px;
-    color: #2A84C6;
+  border: none;
+  background-color: #ffff;
+  padding: 8px 24px;
+  color: #2a84c6;
 }
 
 .sub-buttons button {
-    padding: 8px 24px;
-    border: none;
+  padding: 8px 24px;
+  border: none;
 }
 
-
 .empty-div {
-    width: 10px;
-    height: 10px;
-    color: #E5E5E5
+  width: 10px;
+  height: 10px;
+  color: #e5e5e5;
 }
 
 .sub-buttons {
-    display: flex;
-
+  display: flex;
 }
 
 .get-started {
-    padding: 8px 24px;
-    border-radius: 4px;
+  padding: 8px 24px;
+  border-radius: 4px;
 }
 
 .boy-image {
-    max-width: 600px;
+  max-width: 600px;
 
-    flex: 1;
-
-
-
-
+  flex: 1;
 }
 /* section-2 css */
-.section-2 h3{
-    color: #1443BD;
+.section-2 h3 {
+  color: #1443bd;
+  margin-bottom: 20px;
 }
 
-.section-2 h5{
-    font-family:"SF Pro Display Font" ;
-     color:#1443BD
+.section-2 h5 {
+  font-family: "SF Pro Display Font";
+  color: #1443bd;
 }
 .section-2 {
-    margin: 40px 0px 0px 0px;
-    /* max-width: 400px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  margin: 40px 0px 0px 0px;
+  /* max-width: 400px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.section-2 p{
-    text-align: center;
-    max-width: 500px;
-    font-family: "svn-Gilroy";
-    color: #1443BD;
+.section-2 p {
+  text-align: center;
+  max-width: 500px;
+  font-family: "svn-Gilroy";
+  color: #1443bd;
+  margin-bottom: 120px;
 }
 
 .section2-wrapper {
-    display: flex;
-    justify-content: space-between;
-    gap: 24px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .section2-wrapper p {
-    font-style: "SVN-Gilroy";
+  font-style: "SVN-Gilroy";
 }
-
-
 
 .section2-item {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.section2-item h5{
-    color: #1443BD;
+.section2-item h5 {
+  color: #1443bd;
+  font-family: "svn-Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  margin-bottom: 18px;
 }
-
-
-
 
 .section2-item p {
-    text-align: center;
-    font-family: "svn-Gilroy";
-    color: #1443BD;
-
+  text-align: center;
+  font-family: "svn-Gilroy";
+  color: #1443bd;
+  width: 280px;
+}
+.image-two {
+  width: 170px;
+  height: 150px;
 }
 
-.section2-item:first-child img {
-    height: 200px;
+.section2-item img {
+  height: 140px;
+  width: 160px;
 }
-
-.section2-item:nth-child(2) img {
-    height: 200px;
+.right-side-part h4{
+    font-family: "SF Pro Display Font";
+font-size: 34px;
+color: #1443bd;
+padding-bottom: 20px;
 }
-
-.section2-item:nth-child(3) img {
-    height: 200px;
-}
-
 /* section-3 css  */
-.right-side-part  h5{
-    font-family: "SF Pro Display Font" ;
-    color: #1443BD;
-
-    
+.right-side-part h5 {
+  font-family: "SF Pro Display Font";
+  color: #1443bd;
 }
-.right-side-part p{
-    font-family: "SVN-Gilroy";
-    color:#1443BD
+.right-side-part p {
+  font-family: "SVN-Gilroy";
+  color: #1443bd;
+  padding-bottom: 30px;
+
 }
 
 .section-3 {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 96px;
+  padding-left: 108px;
+  gap: 232px;
 }
-.girl-image{
-    min-width: 50%;
+.girl-image {
+  width: 496px;
+  height: 532px;
 }
-
-
-.section-3{
-    margin-top: 96px;
-    padding-left: 108px;
-}
-
 
 .right-side-part {
+  height: 532px;
 
-    margin-right: 108px;
+  margin-right: 108px;
 }
-
-
+.icon {
+  padding-bottom: 30px;
+}
+.section-3 h5 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  font-family: "SF Pro Display Font";
+}
 
 .section-4 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+.Mockup-picture
+{
+
+  width: 568px;
+height: 648px;
+}
+.section-6 {
+  display: flex;
+ justify-content: space-between;
+ gap : 100px
 }
 
-.above-footer{
-    display: flex;
-    width: 1140px;
-
-    align-items: center;
-    flex-direction: column;
+.section-parts-6 h3{
+  font-size: 48px;
+  font-family: "SF Pro Display Font";
+  padding-bottom: 20px;
+  color: #1443bd;
 }
 
-.above-footer h3{
-    color: #1443BD;
-    font-family: "SF Pro Display Font";
-    align-items: center;
+.section-parts-6 p {
+  font-family: "SVN-Gilroy";
+  color: #1443bd;
+  padding-bottom: 30px;
+}
+.section-parts-6{
+  padding : 200px 50px
+}
+.section-other-part {
+  
+  padding:100PX 0;
+} 
+.buttons-logos{
+  width: 183px;
+height: 56px;
+display: flex;
+gap:8px;
+justify-content: space-evenly;
+
+}
+.one {
+  width: 185px;
+height: 41px;
+color: #1443bd;
+background-color:white;
+border-radius: 8px;
+border:1px solid blue;
+}
+.two { background-color: #1443bd;
+color: white;
+width: 185px;
+height: 41px;
+border-radius: 8px;
+border: none;}
+.section-other-part button{
+  background-color: #1443bd;
+  color: aliceblue;
+  width: 132px;
+height: 36px;
+}
+.section-other-part h3{
+  font-size: 48px;
+  color: #1443bd;
+  padding-bottom: 16px;
+  font-family:"SF Pro Display Font" ;
+
+
+}
+.section-other-part h5{
+  color: #1443bd;
+  font-size: 16px;
+  font-family:"SVN-Gilroy" ;
+  padding-bottom: 4px;
+}
+.section-other-part p{
+  font-family: "SVN-Gilroy";
+  color: #1443bd;
+  font-size: 14px;
+  padding-bottom: 36px;
+}
+.sign-up {
+  border-radius: 8px;
+  border: none;
 }
 
-
-.above-footer-head{
-    color: #1443BD;
-    font-family:"SVN-Gilroy" ;
+.above-footer {
+  display: flex;
+  width: 1140px;
+  
+justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 }
 
+.above-footer h3 {
+  color: #1443bd;
+  font-family: "SF Pro Display Font";
+  align-items: center;
+  font-size: 48px;
+  padding-bottom: 16px;
+}
+
+.above-footer h5 {
+  font-size: 16px;
+  padding-bottom: 6px;
 
 
+  
+}
+.above-footer p{
+  font-size: 14px;
+  color: #1443bd;
+  font-family:"SVN-Gilroy" ;
+}
+
+.above-footer-head {
+  color: #1443bd;
+  font-family: "SVN-Gilroy";
+  text-align: center;
+}
+.above-footer-logos {
+  padding-left:100px ;
+}
 
 .footer-section {
-    background-color: #1443BD;
-    color: white;
-    padding-left: 108px;
-    padding-right: 108px;  
-    width: cover; }
-
-    .footer-flex{
-        display: flex;
-        justify-content: space-between;
-        gap:25px;
-        
-    
-    }
-    
-
- .above-footer-logos{
-    width:102px;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 107px;
+  background-color: #1443bd;
+  color: white;
+  padding-left: 108px;
+  padding-right: 108px;
   
+}
 
-} 
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+
+}
+
+.above-footer-logos {
+ 
+  display: flex;
+
+  
+  padding: 100px 0px;
+  gap:50px
+}
 
 /* Section 4 */
-.features{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    padding-left:108px ;
-    padding-right: 108px;
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-left: 108px;
+  padding-right: 108px;
 }
-.featureDesc{
-    text-align: center;padding-top: 60px;
+.featureDesc {
+  text-align: center;
+  padding-top: 60px;
+}
+.featureDesc h3{
+  font-weight: 600;
+font-size: 48px;
+color: #1443bd;
+
+font-family:"SF Pro Display Font" ;
+padding-bottom: 20px;
+}
+
+.featureDesc p{
+  font-size: 16px;
+  font-family:"SVN-Gilroy" ;
+  color: #1443bd;
+}
+
+.featureBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.featureTop,
+.featureBottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.left,
+.right {
+  display: flex;
+  gap: 5px;
+}
+
+.featureContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.featureContent h5{
+  font-family:"SVN-Gilroy" ;
+  font-size: 26px;
+  color: #1443bd;
+  padding-bottom: 20px;
+}
+.featureContent p{
+  font-size: 16px;
+  font-family: "SVN-Gilroy";
+  color: #1443bd;
 
 }
 
-.featureBox{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.footer-1,.footer-2,.footer-3 {
+  display: flex;
+  flex-direction: column;
+  gap :5px
+
+
+}
+.footer-4{
+ display: flex;
+  flex-direction: column;
+  gap :20px
+
 }
 
-.featureTop, .featureBottom{
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
+.final-Button {
+  width: 184px;
+  height: 36px;
+
 }
 
-.left , .right {
-    display: flex;
-gap: 5px;
-}
 
-.featureContent{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
-.footer-1 {
-    display: flex;
-    flex-direction: column;
-   
-}
-
-.footer-2 {
-    display: flex;
-    flex-direction: column;
-    
-}
-.footer-3 {
-    display: flex;
-    flex-direction: column;
+.footer-1 a,
+.footer-2 a,
+.footer-3 a {
+  color: white;
+  text-decoration: none;
   
 }
 
-.footer-1 a,.footer-2 a , .footer-3 a{
-    color:white ;
-}
+.footer-1 h3,
+.footer-2 h3,
+.footer-3 h3,
+.footer-4 h3 {
+  padding-top: 30px;
 
-.footer-1 h3, .footer-2 h3 ,.footer-3 h3, .footer-4 h3{
-    padding: 16px;
 }
 
 .footer-end {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 30px;
-   
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  padding-top: 50px;
+  margin: 0;
+
+
+
+}
+.hr{
+  border: 2px solid;
+  height: 50px;
 }
 
-.footer-logos{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
+.footer-end-1 {
+  display: flex;
+  justify-content: center;
+  gap :10px;
+align-items: center;}
+
+.footer-paragarph
+{
+  width: 322px;
+}
+.footer-logos {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
 }
 
 /* footer section */
@@ -475,40 +605,37 @@ gap: 5px;
     color:white;
 } */
 
-
-
-
-
+.icon-groups {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.icon-text {
+  display: grid;
+}
 
 /* tablet view */
-  @media screen  and (max-width: 768px ){
-    .mid-navigation{
-
-        display: none;
-    };
-   
+@media screen and (max-width: 768px) {
+  .mid-navigation {
+    display: none;
+  }
 }
- 
 
-  
 /* mobile view */
-@media screen and (max-width:480px) {
-    .mid-navigation{
-  
-      display: none;
-    }
-    .hamburger {
-      display: block;
-      color:blue;
-    }
-   
+@media screen and (max-width: 480px) {
+  .mid-navigation {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    color: blue;
+  }
 }
-
 
 /* mini laptops  */
-@media screen and (max-width:1200px){
-    .mid-navigation{
-        display: none;
-    }
-
-} 
+@media screen and (max-width: 1200px) {
+  .mid-navigation {
+    display: none;
+  }
+}
