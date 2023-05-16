@@ -82,6 +82,9 @@ header {
   margin-top: 12px;
   margin-bottom: 44px;
 }
+.mid-portion-1 h2{
+  color: #1443bd;
+}
 
 .header-mid-portion {
   display: flex;
